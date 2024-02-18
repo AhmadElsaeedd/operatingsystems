@@ -1,0 +1,9 @@
+advanced_shell
+advanced_shell.c
+dup.c
+dup2-stdin.c
+dup2-stdout.c
+input.txt
+output.txt
+pipes.c
+osh> 
