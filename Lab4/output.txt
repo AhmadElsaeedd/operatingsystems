@@ -4,6 +4,9 @@ dup.c
 dup2-stdin.c
 dup2-stdout.c
 input.txt
+myshell
 output.txt
 pipes.c
-osh> 
+starterCode.c
+osh>        6       7      13
+osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> osh> 
