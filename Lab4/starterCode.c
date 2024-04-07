@@ -182,14 +182,12 @@ int shellExecute(char *tokens[], int numOfTokens, int inFD, int outFD, int backg
 
         // Input redirection
         if (inFD != STDIN_FILENO) {
-            stdin_copy = dup(STDIN_FILENO);
             dup2(inFD, STDIN_FILENO);
             close(inFD);
         }
 
         // Output redirection
         if (outFD != STDOUT_FILENO) {
-            stdout_copy = dup(STDOUT_FILENO);
             dup2(outFD, STDOUT_FILENO);
             close(outFD);
         }
@@ -210,16 +208,16 @@ int shellExecute(char *tokens[], int numOfTokens, int inFD, int outFD, int backg
             // For background processes, print the PID and don't wait
             printf("[1] %d\n", pid);
         }
+
+        // No need to restore stdin and stdout here as they are not changed in the parent process
     }
 
-    // Restore stdin and stdout if they were redirected
-    if (stdin_copy != -1) {
-        dup2(stdin_copy, STDIN_FILENO);
-        close(stdin_copy);
+    // The critical fix: Ensure the file descriptors are closed in the parent process if they were opened for redirection
+    if (inFD != STDIN_FILENO) {
+        close(inFD);
     }
-    if (stdout_copy != -1) {
-        dup2(stdout_copy, STDOUT_FILENO);
-        close(stdout_copy);
+    if (outFD != STDOUT_FILENO) {
+        close(outFD);
     }
 
     return 0;
